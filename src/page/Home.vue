@@ -16,7 +16,7 @@ export default {
           const response = await axios.get('https://api.spotify.com/v1/artists/6RYrVybxw2eMM5xXCibQF3/top-tracks?market=FR',{
               headers: {
                     Accept: 'application/json',
-                    //Authorization: "Bearer BQASAlEW7IX1ESSeTDydccNQEGT703Kh5vdxyKVZlHBuMOAUDrgv9008XRWqq567YA3PYD88yOBarN7ioSd4BW41SMbjZSkxMS5Kcb3ia74dXHBPxMO26dtb3ikcT1EPZfAhAJXlMz8bi-VtSlZGv96p-9s-8WxUgV0MJAFrX0Q",
+                    Authorization: "",
                     'Content-Type': 'application/json',
                 },
           })
